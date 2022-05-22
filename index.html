@@ -1,0 +1,1935 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <!-- 모바일은 화면크기를 자동으로 줄여서 표현하는 방식 1:1사이즈의 대응을 위하여 viewport코드를 추가한다 -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>OMEGA</title>
+    <link rel="shortcut icon" href="icons/favicon.ico">
+    <link rel="stylesheet" href="fonts/omega-font/font.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Yantramanav:wght@100;300;400;500;700;900&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js"></script>
+    <script src="script/jquery-animate-css-rotate-scale.js"></script>
+    <script src="script/scroll_v.js"></script>
+    <script src="script/script.js"></script>
+    <script src="script/snowfall.jquery.min.js"></script> <!-- 버블효과 -->
+<body>
+    <!-- intro -->
+    <div id="intro-start">
+        <div id="intro-start-box1"></div>
+        <div id="intro-start-bar"></div>
+        <div id="intro-start-box2"></div>
+    </div>
+    <div id="intro-wrap">
+        <img src="icons/intro-logo.png" alt="" id="intro-logo">
+        <img src="icons/intro-text1.png" alt="" id="intro-text1">
+        <img src="icons/intro-name.png" alt="" id="intro-name">
+        <img src="icons/star1.png" alt="" id="intro-star1">
+        <img src="icons/star2.png" alt="" id="intro-star2">
+        <img src="icons/star3.png" alt="" id="intro-star3">
+        <img src="images/intro-overlay-bg.jpg" alt="" id="intro-overlay-bg">
+        <div id="astronaut-box">
+            <div id="astronaut-box2">
+                <img src="icons/left-arm.png" alt="" id="astronaut-leftarm">
+                <img src="icons/astronaut-body.png" alt="" id="astronaut-body">
+                <img src="icons/right-arm.png" alt="" id="astronaut-rightarm">
+                <img src="icons/left-foot.png" alt="" id="astronaut-leftfoot">
+                <img src="icons/right-foot.png" alt="" id="astronaut-rightfoot">
+            </div>
+        </div>
+        <div id="spaceship-box">
+            <img src="icons/spaceship-ring.png" alt="" id="spaceship-ring">
+            <div id="spaceship-box2">
+                <div id="spaceship-box3">
+                    <img src="icons/fire1.png" alt="" id="fire1">
+                    <img src="icons/spaceship-body.png" alt="" id="spaceship-body">
+                    <div id="spaceship-cover-box">
+                        <img src="icons/spaceship-cover2.png" alt="" id="spaceship-cover2">
+                        <img src="icons/spaceship-cover.png" alt="" id="spaceship-cover">
+                    </div>
+                    <img src="icons/spaceship-body2.png" alt="" id="spaceship-body2">
+                    <img src="icons/fire2.png" alt="" id="fire2">
+                </div>
+            </div>
+        </div>
+        <div id="intro-line"></div>
+        <div id="intro-click-box">
+            <img src="icons/intro-logobt.png" alt="" id="intro-click-img">
+            <p id="intro-click-text">CLICK</p>
+        </div>
+        <h1 id="intro-designby"><span>design by.</span> LEE JUNG HO </h1>
+    </div>
+    <!-- intro end -->
+    <!-- category -->
+    <div id="category-wrap">
+        <ul id="cate-box">
+            <li>
+                <a href="history.html">
+                    <div class="cate-under-bar"></div>
+                    <div class="cate-textbox">
+                        <img src="icons/history.png" alt="" class="cate-text">
+                    </div>
+                </a>
+            </li>
+            <li>
+                <a href="#">
+                    <div class="cate-under-bar"></div>
+                    <div class="cate-textbox">
+                        <img src="icons/customize.png" alt="" class="cate-text">
+                    </div>
+                </a>
+            </li>
+            <li>
+                <a href="https://www.omegawatches.com/" target="_blank">
+                    <div class="cate-under-bar"></div>
+                    <div class="cate-textbox">
+                        <img src="icons/shop.png" alt="" class="cate-text">
+                    </div>
+                </a>
+            </li>
+        </ul>
+    </div>
+    <!-- category end -->
+    <!-- header -->
+    <header>
+        <h1 id="main-logo">
+            <a href="index.html">
+                <img src="icons/logo.svg" alt="">
+            </a>
+        </h1>
+        <div id="hd-menubox">
+            <div id="hd-menu-t"></div>
+            <div id="hd-menu-m"></div>
+            <div id="hd-menu-b"></div>
+        </div>
+        <div id="lang-bt">
+            <div id="lang-left-bg"></div>
+            <div id="lang-right-bg"></div>
+            <ul id="lang">
+                <li>
+                    <p>EN</p>
+                </li>
+                <li>
+                    <p>KO</p>
+                </li>
+            </ul>
+        </div>
+        <div id="hd-right-box">
+            <img src="icons/search.png" alt="" id="hd-search">
+            <img src="icons/my-icon.png" alt="" id="hd-myicon">
+        </div>
+        <div id="hd-search-box">
+            <div class="hd-search-block">
+                <div class="hd-search-block2">
+                    <input type="text" placeholder="검색어를 입력하세요.">
+                    <div class="hd-search-block-icon"></div>
+                </div>
+            </div>
+        </div>
+        <div id="hd-myicon-bgbox">
+            <div id="hd-myicon-bg-left"></div>
+            <div id="hd-myicon-bg-right">
+                <div id="hd-myicon-inbox">
+                    <h3 id="hd-myicon-inbox-title">MY OMEGA</h3>
+                    <div class="sign-in-box">
+                        <h4 class="sign-box-text">I HAVE AN ACCOUNT</h4>
+                        <div class="sign-in-input-box">
+                            <input type="text" placeholder="E-mail">
+                        </div>
+                        <div class="sign-in-input-box">
+                            <input type="password" placeholder="Password">
+                        </div>
+                        <p id="forgot-password">Forgot your password?</p>
+                        <div class="sign-in-btbox">
+                            <span class="sign-in-bg"></span>
+                            <button class="sign-in-bt">SIGN IN</button>
+                        </div>
+                    </div>
+                    <div class="sign-bar-box">
+                        <span>or</span>
+                        <ul class="sign-bar">
+                            <li></li>
+                            <li></li>
+                        </ul>
+                    </div>
+                    <div class="sign-up-box">
+                        <h4 class="sign-box-text">I DON'T HAVE AN ACCOUNT</h4>
+                        <h5 class="sign-box-subtext">Create a My OMEGA account to benefit from our exclusive services and keep up to date with our latest publications.</h5>
+                        <div class="sign-up-btbox">
+                            <span class="sign-up-bg"></span>
+                            <button class="sign-up-bt">SIGN UP</button>
+                        </div>
+                    </div>
+                    <ul id="hd-myicon-sns">
+                        <li><img src="icons/facebook-b.png" alt="" id="facebook"></li>
+                        <li><img src="icons/insta-b.png" alt="" id="insta"></li>
+                        <li><img src="icons/twitter-b.png" alt="" id="twitter"></li>
+                        <li><img src="icons/pinterest-b.png" id="pinterest" alt=""></li>
+                        <li><img src="icons/tiktok-b.png" alt="" id="tiktok"></li>
+                        <li><img src="icons/linkedin-b.png" alt="" id="linkedin"></li>
+                    </ul>
+                    <ul id="hd-myicon-menu">
+                        <li>
+                            <a href="#">
+                                <img src="icons/wishlist-b.png" alt="" id="wishlist">
+                                <p>wishlist</p>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <img src="icons/cart-b.png" alt="" id="cart">
+                                <p>cart</p>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <img src="icons/orderlist-b.png" alt="" id="orderlist">
+                                <p>orderlist</p>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <img src="icons/map-b.png" alt="" id="map">
+                                <p>map</p>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </header>
+    <div id="hd-menu-bgbox">
+        <div id="hd-menu-bg-left">
+            <ul class="hd-menu-textbox">
+                <li>
+                    <h3 class="hd-menu-text">WATCHES
+                        <span class="hd-menu-arrow"></span>
+                        <div class="hd-menu-bar"></div>
+                    </h3>
+                    <ul class="hd-sub-textbox">
+                        <li>
+                            <a href="#">
+                                <p class="hd-sub-text">CONSTELLATION</p>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <p class="hd-sub-text">SEAMASTER</p>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <p class="hd-sub-text">SPEEDMASTER</p>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <p class="hd-sub-text">Women's Selection</p>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <p class="hd-sub-text">Men's Selection</p>
+                            </a>
+                        </li>
+                    </ul>
+                </li>
+                <li>
+                    <h3 class="hd-menu-text">ACCESSORIES
+                        <span class="hd-menu-arrow"></span>
+                        <div class="hd-menu-bar"></div>
+                    </h3>
+                    <ul class="hd-sub-textbox">
+                        <li>
+                            <a href="#">
+                                <p class="hd-sub-text">CUFFLINKS</p>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <p class="hd-sub-text">EYEWEAR</p>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <p class="hd-sub-text">BELTS</p>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <p class="hd-sub-text">KEYHOLDERS & OTHERS</p>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <p class="hd-sub-text">FINE FRAGRANCE</p>
+                            </a>
+                        </li>
+                    </ul>
+                </li>
+                <li>
+                    <h3 class="hd-menu-text">STRAPS
+                        <span class="hd-menu-arrow"></span>
+                        <div class="hd-menu-bar"></div>
+                    </h3>
+                    <ul class="hd-sub-textbox">
+                        <li>
+                            <a href="#">
+                                <p class="hd-sub-text">NATO STRAPS</p>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <p class="hd-sub-text">WATCH STRAPS</p>
+                            </a>
+                        </li>
+                    </ul>
+                </li>
+            </ul>
+            <ul class="hd-information-box">
+                <li>
+                    <a href="#">
+                        <h3>PRESS ROOM
+                            <div class="hd-info-bar"></div>
+                        </h3>
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <h3>STORE LOCATOR
+                            <div class="hd-info-bar"></div>
+                        </h3>
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <h3>CUSTOMER SERVICE
+                            <div class="hd-info-bar"></div>
+                        </h3>
+                    </a>
+                </li>
+            </ul>
+            <ul id="hd-cate-box">
+                <li>
+                    <a href="index.html">
+                        <div class="hd-cate-bar"></div>
+                    </a>
+                </li>
+                <li>
+                    <a href="history.html">
+                        <div class="hd-cate-bar"></div>
+                    </a>
+                </li>
+                <li>
+                    <a href="https://www.omegawatches.com/" target="_blank">
+                        <div class="hd-cate-bar"></div>
+                    </a>
+                </li>
+            </ul>
+        </div>
+        <div id="hd-menu-bg-right"></div>
+    </div>
+    <!-- header end -->
+    <!-- moon -->
+    <section class="moon-wrap">
+        <div class="moon-box">
+            <img src="images/moon1.png" alt="" class="moon">
+            <div class="black-moon-box">
+                <div class="balck-moon"></div>
+            </div>
+        </div>
+    </section>
+    <!-- moon end -->
+    <!-- moon text -->
+    <div class="constellation-text-box">
+        <img src="icons/constellation.png" alt="" id="constellation-text">
+        <img src="icons/constellation-glow.png" alt="" id="constellation-text-glow">
+        <div class="basic-arrow">
+            <img src="icons/basic-arrow-glow.png" alt="" class="basic-arrow-glow">
+        </div>
+    </div>
+    <div class="deville-text-box">
+        <img src="icons/deville.png" alt="" id="deville-text">
+        <img src="icons/deville-glow.png" alt="" id="deville-text-glow">
+        <div class="basic-arrow">
+            <div class="basic-arrow-imgbox">
+                <img src="icons/basic-arrow-glow.png" alt="" class="basic-arrow-glow">
+            </div>
+        </div>
+    </div>
+    <div class="speedmaster-text-box">
+        <div class="speedmaster-text-imgbox">
+            <img src="icons/speedmaster.png" alt="" id="speedmaster-text">
+            <img src="icons/speedmaster-glow.png" alt="" id="speedmaster-text-glow">
+            <div class="basic-arrow">
+                <div class="basic-arrow-imgbox">
+                    <img src="icons/basic-arrow-glow.png" alt="" class="basic-arrow-glow">
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- moon text end -->
+    <!-- panorama --> 
+    <div class="wave-bg-wrap">
+        <img src="images/wave.png" alt="" id="wave-bg">
+    </div>
+    <div class="sea-beach-wrap">
+        <img src="images/sea-beach-bg.png" alt="" id="sea-beach-bg">
+    </div>
+    <div class="whale-wrap">
+        <div class="whale-box">
+            <img src="images/whale.png" alt="" id="whale">
+        </div>
+    </div>
+    <div class="wetsuit-wrap">
+        <div class="wetsuit-movebox">
+            <div class="wetsuit-box">
+                <img src="images/wetsuit.png" alt="" id="wetsuit">
+            </div>
+        </div>
+    </div>
+    <div class="seamaster-text-wrap">
+        <div class="seamaster-text-box">
+            <img src="icons/seamaster.png" alt="" id="seamaster-text">
+            <div class="basic-arrow">
+                <div class="basic-arrow-imgbox">
+                    <img src="icons/basic-arrow.png" alt="" class="basic-arrow-glow">
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="turtle-container">
+        <div class="turtle-wrap">
+            <div class="turtle-box">
+                <img src="images/turtle.png" alt="" id="turtle">
+            </div>
+        </div>
+    </div>
+    <div class="page8-bg-box"></div>
+    <!-- panorama end -->
+    <!-- page -->
+    <div id="wrap">
+        <!-- page1 -->
+        <section class="page page1" >
+            <video src="video/videoplayback.mp4" autoplay muted loop></video>
+            <ul class="main-text-wrap">
+                <li class="main-text-box">
+                    <div class="main-text-box2">
+                        <h2 class="main-text1">MASTER<br>CHRONOMETER</h2>
+                        <p class="main-text2">Behind the elegance of every Master Chronometer timepiece is <br>
+                            the highest level of testing: 8 tests over 10 days, to ensure <br>
+                            superior precision and magnetic resistance. We’ve raised our <br>
+                            standards. You can too.</p>
+                    </div>
+                </li>
+                <li class="main-text-box">
+                    <div class="main-text-box2">
+                        <h2 class="main-text1">THE MATERIAL<br>DIFFERENCE</h2>
+                        <p class="main-text2">In its continuous quest for watchmaking progress,OMEGA has committed itself <br>
+                            to using and perfecting the industry’s most essential materials, <br>
+                            which not only heighten the beauty of a watch, but also the functionality <br>
+                            and longevity at the heart of each design.</p>
+                    </div>
+                </li>
+                <li class="main-text-box">
+                    <div class="main-text-box2">
+                        <h2 class="main-text1">TESTING<br>THE SPEEDMASTER</h2>
+                        <p class="main-text2">The tests that NASA performed on the chronographs<br>
+                            that were submitted to the agency in 1964 were designed <br>
+                             to destroy the watches. In the end, only one watch<br>
+                             survived: the Speedmaster.</p>
+                    </div>
+                </li>
+            </ul>
+            <div class="page1-mainslide-wrap">
+                <div class="page1-mainslide-box">
+                    <ul class="page1-mainslide">
+                        <li>
+                            <img src="icons/constellation.png" alt="" class="page1-mainslide-logo">
+                            <img src="images/slide1-watch.png" alt="" class="page1-mainslide-img1">
+                            <img src="images/slide1-watch-calibre.png" alt="" class="page1-mainslide-img2">
+                            <div class="page1-mainslide-morebt" id="page1-more-bt1">
+                                <div class="page1-mainslide-btbox">
+                                    <div class="page1-mainslide-bttext">Discover the universe</div>
+                                </div>
+                                <div class="page1-mainslide-btbox2">
+                                    <div class="page1-mainslide-bttext2">Discover the universe</div>
+                                </div>
+                            </div>
+                        </li>
+                        <li>
+                            <img src="icons/deville.png" alt="" class="page1-mainslide-logo">
+                            <img src="images/slide2-watch.png" alt="" class="page1-mainslide-img1">
+                            <img src="images/slide2-watch-calibre.png" alt="" class="page1-mainslide-img2">
+                            <div class="page1-mainslide-morebt" id="page1-more-bt2">
+                                <div class="page1-mainslide-btbox">
+                                    <div class="page1-mainslide-bttext">Discover the universe</div>
+                                </div>
+                                <div class="page1-mainslide-btbox2">
+                                    <div class="page1-mainslide-bttext2">Discover the universe</div>
+                                </div>
+                            </div>
+                        </li>
+                        <li>
+                            <img src="icons/speedmaster.png" alt="" class="page1-mainslide-logo">
+                            <img src="images/slide3-watch.png" alt="" class="page1-mainslide-img1">
+                            <img src="images/slide3-watch-calibre.png" alt="" class="page1-mainslide-img2">
+                            <div class="page1-mainslide-morebt" id="page1-more-bt3">
+                                <div class="page1-mainslide-btbox">
+                                    <div class="page1-mainslide-bttext">Discover the universe</div>
+                                </div>
+                                <div class="page1-mainslide-btbox2">
+                                    <div class="page1-mainslide-bttext2">Discover the universe</div>
+                                </div>
+                            </div>
+                        </li>
+                        <li>
+                            <img src="icons/seamaster.png" alt="" class="page1-mainslide-logo">
+                            <img src="images/slide4-watch.png" alt="" class="page1-mainslide-img1">
+                            <img src="images/slide4-watch-calibre.png" alt="" class="page1-mainslide-img2">
+                            <div class="page1-mainslide-morebt" id="page1-more-bt4">
+                                <div class="page1-mainslide-btbox">
+                                    <div class="page1-mainslide-bttext">Discover the universe</div>
+                                </div>
+                                <div class="page1-mainslide-btbox2">
+                                    <div class="page1-mainslide-bttext2">Discover the universe</div>
+                                </div>
+                            </div>
+                        </li>
+                    </ul>
+                    <div class="page1-mainslide-pagebt-box">
+                        <ul class="page1-mainslide-pagebt">
+                            <li></li>
+                            <li></li>
+                            <li></li>
+                            <li></li>
+                        </ul>
+                        <div class="page1-mainslide-playbt">
+                            <img src="icons/slide-pausebt.png" alt="" class="page1-mainslide-pause">
+                        </div>
+                    </div>
+                </div>
+                <div class="page1-mainslide-prevbt"><img src="icons/basic-arrow.png" alt=""></div>
+                <div class="page1-mainslide-nextbt"><img src="icons/basic-arrow.png" alt=""></div>
+            </div>
+            <div class="scroll-wrap">
+                <div class="scroll-box">
+                    <div class="scroll-arrow">
+                        <div class="scroll-bg1"></div>
+                        <div class="scroll-bg2"></div>
+                    </div>
+                    <div class="scroll-arrow">
+                        <div class="scroll-bg1"></div>
+                        <div class="scroll-bg2"></div>
+                    </div>
+                    <div class="scroll-arrow">
+                        <div class="scroll-bg1"></div>
+                        <div class="scroll-bg2"></div>
+                    </div>
+                </div>
+                <p class="scroll-text">SCROLL DOWN</p>
+            </div>
+        </section>
+        <!-- page1 end -->
+        <!-- page2 -->
+        <section class="page page2">
+            <div class="moon-page-infobox constellation-infobox">
+                <div class="moon-page-bt constellation-bt"></div>
+                <div class="moon-page-hiddenbox constellation-hiddenbox">
+                    <div class="moon-page-h-sidebox constellation-h-sidebox">
+                        <h3>CONSTELLATION <br>
+                            CO‑AXIAL MASTER <br>
+                            CHRONOMETER 39 MM</h3>
+                        <div class="moon-page-textline constellation-textline"></div>
+                        <p>Steel <br>
+                            ‑ Sedna™ Gold on Steel ‑ <br>
+                            Sedna™ Gold <br>
+                            131.20.39.20.02.001</p>
+                        <div class="moon-page-textline constellation-textline"></div>
+                        <div class="moon-h-bt-box constellation-h-bt-box">
+                            <div class="moon-h-bg"></div>
+                            <div class="moon-h-bt">View Details</div>
+                        </div>
+                        <div class="constellation-pagebt moon-h-pagebt">
+                            <ul>
+                                <li>
+                                    <div></div>
+                                </li>
+                                <li>
+                                    <div></div>
+                                </li>
+                                <li>
+                                    <div></div>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="moon-page-watch-box constellation-watch-box">
+                        <div class="moon-page-watch-img constellation-watch-img">
+                            <ul class="constellation-imglist">
+                                <li>
+                                    <img src="images/constellation-watch.png" alt="" class="moon-page-watch constellation-watch-front">
+                                    <img src="images/constellation-watch-back.png" alt="" class="moon-page-watch-back constellation-watch-back">
+                                </li>
+                                <li>
+                                    <img src="images/constellation-watch2.png" alt="" class="moon-page-watch constellation-watch-front">
+                                    <img src="images/constellation-watch2-back.png" alt="" class="moon-page-watch-back constellation-watch-back">
+                                </li>
+                                <li>
+                                    <img src="images/constellation-watch3.png" alt="" class="moon-page-watch constellation-watch-front">
+                                    <img src="images/constellation-watch3-back.png" alt="" class="moon-page-watch-back constellation-watch-back">
+                                </li>
+                            </ul>
+                            <div class="reverse-icon constellationreverse-reverse-icon">
+                                <img src="icons/reverse-bt.png" alt="" class="reverse-icon-img1">
+                                <img src="icons/reverse-bt.png" alt="" class="reverse-icon-img2">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- page2 end -->
+        <!-- page3 -->
+        <section class="page page3">
+            <div class="moon-page-infobox deville-infobox">
+                <div class="moon-page-bt deville-bt"></div>
+                <div class="moon-page-hiddenbox deville-hiddenbox">
+                    <div class="moon-page-h-sidebox deville-h-sidebox">
+                        <h3>HOUR VISION <br>
+                            CO‑AXIAL MASTER <br>
+                            CHRONOMETER 41 MM</h3>
+                        <div class="moon-page-textline deville-textline"></div>
+                        <p>Sedna™ <br>
+                            ‑ gold on Sedna™ ‑<br>
+                            gold <br>
+                            433.50.41.21.13.001</p>
+                        <div class="moon-page-textline deville-textline"></div>
+                        <div class="moon-h-bt-box deville-h-bt-box">
+                            <div class="moon-h-bg"></div>
+                            <div class="moon-h-bt">View Details</div>
+                        </div>
+                        <div class="deville-pagebt moon-h-pagebt">
+                            <ul>
+                                <li>
+                                    <div></div>
+                                </li>
+                                <li>
+                                    <div></div>
+                                </li>
+                                <li>
+                                    <div></div>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="moon-page-watch-box deville-watch-box">
+                        <div class="moon-page-watch-img deville-watch-img">
+                            <ul class="deville-imglist">
+                                <li>
+                                    <img src="images/deville-watch.png" alt="" class="moon-page-watch deville-watch-front">
+                                    <img src="images/deville-watch-back.png" alt="" class="moon-page-watch-back deville-watch-back">
+                                </li>
+                                <li>
+                                    <img src="images/deville-watch2.png" alt="" class="moon-page-watch deville-watch-front">
+                                    <img src="images/deville-watch2-back.png" alt="" class="moon-page-watch-back deville-watch-back">
+                                </li>
+                                <li>
+                                    <img src="images/deville-watch3.png" alt="" class="moon-page-watch deville-watch-front">
+                                    <img src="images/deville-watch3-back.png" alt="" class="moon-page-watch-back deville-watch-back">
+                                </li>
+                            </ul>
+                            <div class="reverse-icon deville-reverse-icon">
+                                <img src="icons/reverse-bt.png" alt="" class="reverse-icon-img1">
+                                <img src="icons/reverse-bt.png" alt="" class="reverse-icon-img2">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- page3 end -->
+        <!-- page4 -->
+        <section class="page page4">
+            <div class="page-empty-bg"></div>
+            <div class="page4-text-rightbox">
+                <h3>" The 4th generation Speedmaster – reference ST 105.012<br>
+                    - is famed as one of the watches worn on the Moon. "</h3>
+            </div>
+            <div class="speedmaster-infobox"></div>
+            <div class="moon-page-hiddenbox speedmaster-hiddenbox">
+                <div class="moon-page-h-sidebox speedmaster-h-sidebox">
+                    <h3>MOONWATCH <br>
+                        CO‑AXIAL PROFESSIONAL <br>
+                        CHRONOGRAPH 42 MM</h3>
+                    <div class="moon-page-textline speedmaster-textline"></div>
+                    <p>Steel<br>
+                        ‑ Sedna™ Gold on Steel ‑<br>
+                        Sedna™ Gold <br>
+                        327.20.43.50.01.001</p>
+                    <div class="moon-page-textline speedmaster-textline"></div>
+                    <div class="moon-h-bt-box speedmaster-h-bt-box">
+                        <div class="moon-h-bg"></div>
+                        <div class="moon-h-bt">View Details</div>
+                    </div>
+                    <div class="speedmaster-pagebt moon-h-pagebt">
+                        <ul>
+                            <li>
+                                <div></div>
+                            </li>
+                            <li>
+                                <div></div>
+                            </li>
+                            <li>
+                                <div></div>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="moon-page-watch-box speedmaster-watch-box">
+                    <div class="moon-page-watch-img speedmaster-watch-img">
+                        <ul class="speedmaster-imglist">
+                            <li>
+                                <img src="images/speedmaster-watch.png" alt="" class="moon-page-watch speedmaster-watch-front">
+                                <img src="images/speedmaster-watch-back.png" alt="" class="moon-page-watch-back speedmaster-watch-back">
+                            </li>
+                            <li>
+                                <img src="images/speedmaster-watch2.png" alt="" class="moon-page-watch speedmaster-watch-front">
+                                <img src="images/speedmaster-watch2-back.png" alt="" class="moon-page-watch-back speedmaster-watch-back">
+                            </li>
+                            <li>
+                                <img src="images/speedmaster-watch3.png" alt="" class="moon-page-watch speedmaster-watch-front">
+                                <img src="images/speedmaster-watch3-back.png" alt="" class="moon-page-watch-back speedmaster-watch-back">
+                            </li>
+                        </ul>
+                        <div class="reverse-icon speedmaster-reverse-icon">
+                            <img src="icons/reverse-bt.png" alt="" class="reverse-icon-img1">
+                            <img src="icons/reverse-bt.png" alt="" class="reverse-icon-img2">
+                        </div>
+                    </div>
+                </div>
+                <div class="moon-page-hiddenbox-closebt speedmaster-hiddenbox-closebt">
+                    <img src="icons/close.png" alt="">
+                </div>
+            </div>
+        </section>
+        <!-- page4 end -->
+        <!-- page5 -->
+        <section class="page page5">
+            <div class="page-empty-bg"></div>
+            <div class="seamaster-infobox"></div>
+            <div class="moon-page-hiddenbox seamaster-hiddenbox">
+                <div class="moon-page-h-sidebox seamaster-h-sidebox">
+                    <h3>SEAMASTER 300<br>
+                        CO‑AXIAL MASTER<br>
+                        CHRONOMETER 41 MM</h3>
+                    <div class="moon-page-textline seamaster-textline"></div>
+                    <p>Titanium<br>
+                        ‑ Sedna™ Gold -<br>
+                        on titanium <br>
+                        227.60.55.21.03.001</p>
+                    <div class="moon-page-textline seamaster-textline"></div>
+                    <div class="moon-h-bt-box seamaster-h-bt-box">
+                        <div class="moon-h-bg"></div>
+                        <div class="moon-h-bt">View Details</div>
+                    </div>
+                    <div class="seamaster-pagebt moon-h-pagebt">
+                        <ul>
+                            <li>
+                                <div></div>
+                            </li>
+                            <li>
+                                <div></div>
+                            </li>
+                            <li>
+                                <div></div>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="moon-page-watch-box seamaster-watch-box">
+                    <div class="moon-page-watch-img seamaster-watch-img">
+                        <ul class="seamaster-imglist">
+                            <li>
+                                <img src="images/seamaster-watch.png" alt="" class="moon-page-watch seamaster-watch-front">
+                                <img src="images/seamaster-watch-back.png" alt="" class="moon-page-watch-back seamaster-watch-back">
+                            </li>
+                            <li>
+                                <img src="images/seamaster-watch2.png" alt="" class="moon-page-watch seamaster-watch-front">
+                                <img src="images/seamaster-watch2-back.png" alt="" class="moon-page-watch-back seamaster-watch-back">
+                            </li>
+                            <li>
+                                <img src="images/seamaster-watch3.png" alt="" class="moon-page-watch seamaster-watch-front">
+                                <img src="images/seamaster-watch3-back.png" alt="" class="moon-page-watch-back seamaster-watch-back">
+                            </li>
+                        </ul>
+                        <div class="reverse-icon seamaster-reverse-icon">
+                            <img src="icons/reverse-bt.png" alt="" class="reverse-icon-img1">
+                            <img src="icons/reverse-bt.png" alt="" class="reverse-icon-img2">
+                        </div>
+                    </div>
+                </div>
+                <div class="moon-page-hiddenbox-closebt seamaster-hiddenbox-closebt">
+                    <img src="icons/close.png" alt="">
+                </div>
+            </div>
+        </section>
+        <!-- page5 end -->
+        <!-- page6 -->
+        <section class="page page6">
+            <div class="page6-imgbox">
+                <ul>
+                    <li><img src="images/page6-SE300.jpg" alt=""></li>
+                    <li><img src="images/page6-SE300-2.jpg" alt=""></li>
+                </ul>
+                <div class="page6-imgtext">
+                    <h3>" The original Seamaster 300 was a popular and reliable<br>
+                        choice amongst experienced divers, scientists and<br>
+                        militaries working at sea. "</h3>
+                </div>
+            </div>
+            <div class="bubble-box"></div>
+        </section>
+        <!-- page6 end -->
+        <!-- page7 -->
+        <section class="page page7">
+            <div class="omegasailing-text-wrap">
+                <div class="omegasailing-text-box">
+                    <h2 class="omegasailing-text">OMEGA SAILING</h2>
+                </div>
+            </div>
+            <div class="sailing-videowrap">
+                <video src="video/sailing.mp4" controls ></video>
+                <div class="sailing_video_close"><img src="icons/close.png" alt=""></div>
+            </div>
+            <div class="sailing-play-btbox">
+                <img src="images/sailing-poster.jpg" alt="" class="sailing-poster">
+                <img src="icons/play-bt.png" alt="" class="sailing-play-bt">
+            </div>
+            <div class="sailing-wrap">
+                <div class="sailing-box">
+                    <img src="images/omegasailing-ship.png" alt="" id="sailing">
+                </div>
+            </div>
+            <div class="sailing-text-box">
+                <h3>OFFICIAL TIMEKEEPER <br>
+                    OF THE AMERICA’S CUP
+                </h3>
+                <p>The 36th edition of the “Auld Mug” marked OMEGA’s third time as Official Timekeeper. Having already timed the America’s Cup in 2000 and 2003, we returned  to the role in 2021. To proudly serve the world’s best sailors on the waters of Auckland’s Waitemata Harbour and Hauraki Gulf and deliver split-second precision, even in the choppiest seas.</p>
+            </div>
+        </section>
+        <!-- page7 end -->
+        <!-- page8 -->
+        <section class="page page8">
+            <h2 class="planet-ocean-title">PLANET OCEAN</h2>
+            <div class="container-page-prevbox">
+                <div class="container-page-prevbt">
+                    <div class="container-page-prevbar"></div>
+                </div>
+            </div>
+            <ul class="container-page-btbox">
+                <li>
+                    <div class="container-page-bt"></div>
+                </li>
+                <li>
+                    <div class="container-page-bt"></div>
+                </li>
+                <li>
+                    <div class="container-page-bt"></div>
+                </li>
+                <li>
+                    <div class="container-page-bt"></div>
+                </li>
+            </ul>
+            <div class="container-page-nextbox">
+                <div class="container-page-nextbt">
+                    <div class="container-page-nextbar"></div>
+                </div>
+            </div>
+            <div class="page8-container">
+                <ul>
+                    <li>
+                        <div class="page8-leftbox">
+                            <div class="page8-watch-wrap">
+                                <div class="page8-watch-box">
+                                    <ul class="page8-watch-imgbox-page">
+                                        <li id="page8-watch-imgbox-page1">
+                                            <ul class="page8-watch-imgbox page8-watch-imgbox1">
+                                                <li><img src="images/planetocean-1.png" alt="" class="page8-watch-front"></li>
+                                                <li><img src="images/planetocean-1back.png" alt="" class="page8-watch-back"></li>
+                                                <li><img src="images/planetocean-1etc.png" alt="" class="page8-watch-etc"></li>
+                                            </ul>
+                                        </li>
+                                        <li id="page8-watch-imgbox-page2">
+                                            <ul class="page8-watch-imgbox page8-watch-imgbox2">
+                                                <li><img src="images/planetocean-2.png" alt="" class="page8-watch-front"></li>
+                                                <li><img src="images/planetocean-2back.png" alt="" class="page8-watch-back"></li>
+                                                <li><img src="images/planetocean-card.png" alt="" class="page8-watch-etc"></li>
+                                            </ul>
+                                        </li>
+                                        <li id="page8-watch-imgbox-page3">
+                                            <ul class="page8-watch-imgbox page8-watch-imgbox3">
+                                                <li><img src="images/planetocean-3.png" alt="" class="page8-watch-front"></li>
+                                                <li><img src="images/planetocean-3back.png" alt="" class="page8-watch-back"></li>
+                                                <li><img src="images/planetocean-3etc.png" alt="" class="page8-watch-etc"></li>
+                                            </ul>
+                                        </li>
+                                        <li id="page8-watch-imgbox-page4">
+                                            <ul class="page8-watch-imgbox page8-watch-imgbox4">
+                                                <li><img src="images/planetocean-4.png" alt="" class="page8-watch-front"></li>
+                                                <li><img src="images/planetocean-4back.png" alt="" class="page8-watch-back"></li>
+                                                <li><img src="images/planetocean-card.png" alt="" class="page8-watch-etc"></li>
+                                            </ul>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="page8-text-wrap">
+                                <ul class="page8-text-page">
+                                    <li id="page8-text-page1">
+                                        <h3>PLANET OCEAN 600M<br>
+                                            CO‑AXIAL MASTER<br>
+                                            CHRONOMETER 43.5 MM</h3>
+                                        <div class="page8-textline"></div>
+                                        <p>Steel <br>
+                                            ‑ Sedna™ Gold on Steel ‑ <br>
+                                            Sedna™ Gold <br>
+                                            131.20.39.20.02.001</p>
+                                        <div class="page8-textline"></div>
+                                    </li>
+                                    <li id="page8-text-page2">
+                                        <h3>PLANET OCEAN 600M<br>
+                                            CO‑AXIAL MASTER<br>
+                                            CHRONOMETER 45.5 MM</h3>
+                                        <div class="page8-textline"></div>
+                                        <p>Black <br>
+                                            ‑ ceramic ‑ <br>
+                                            on rubber strap <br>
+                                            215.92.46.22.01.004</p>
+                                        <div class="page8-textline"></div>
+                                    </li>
+                                    <li id="page8-text-page3">
+                                        <h3>DIVER 300M<br>
+                                            CO‑AXIAL MASTER<br>
+                                            CHRONOMETER 44 MM</h3>
+                                        <div class="page8-textline"></div>
+                                        <p>Steel <br>
+                                            ‑ on ‑ <br>
+                                            steel <br>
+                                            210.30.44.51.03.002</p>
+                                        <div class="page8-textline"></div>
+                                    </li>
+                                    <li id="page8-text-page4">
+                                        <h3>X‑33<br>
+                                            REGATTA<br>
+                                            CHRONOMETER 45 MM</h3>
+                                        <div class="page8-textline"></div>
+                                        <p>Titanium<br>
+                                            ‑ on coated nylon ‑ <br>
+                                            on fabric strap<br>
+                                            318.92.45.79.01.001</p>
+                                        <div class="page8-textline"></div>
+                                    </li>
+                                </ul>
+                                <div class="page8-textbt-box">
+                                    <div class="page8-textbt-bg"></div>
+                                    <div class="page8-textbt">View Details</div>
+                                </div>
+                                <div class="page8-subtitle-box">
+                                    <ul class="page8-subtitle-box-page">
+                                        <li id="page8-subtitle-box-page1">
+                                            <img src="icons/seamaster-b.png" alt="" class="page8-subtext1"></img>
+                                            <p class="page8-subtext2">America’s Cup</p>
+                                        </li>
+                                        <li id="page8-subtitle-box-page2">
+                                            <img src="icons/seamaster-b.png" alt="" class="page8-subtext1"></img>
+                                            <p class="page8-subtext2">ETNZ Deep Black</p>
+                                        </li>
+                                        <li id="page8-subtitle-box-page3">
+                                            <img src="icons/seamaster-b.png" alt="" class="page8-subtext1"></img>
+                                            <p class="page8-subtext2">America’s Cup</p>
+                                        </li>
+                                        <li id="page8-subtitle-box-page4">
+                                            <img src="icons/speedmaster-b.png" alt="" class="page8-subtext1"></img>
+                                            <p class="page8-subtext2">ETNZ Limited Edition</p>
+                                        </li>
+                                    </ul>
+                                </div>
+                                <div class="page8-watchimg-listbox">
+                                    <ul class="page8-watchimg-listbox-page">
+                                        <li id="page8-watchimg-listbox-page1">
+                                            <ul class="page8-watchimg-listbt">
+                                                <li><img src="images/planetocean-1-s.png" alt="" class="page8-watch-simg1"></li>
+                                                <li><img src="images/planetocean-1back-s.png" alt="" class="page8-watch-simg2"></li>
+                                                <li><img src="images/planetocean-1etc-s.png" alt="" class="page8-watch-simg3"></li>
+                                            </ul>
+                                        </li>
+                                        <li id="page8-watchimg-listbox-page2">
+                                            <ul class="page8-watchimg-listbt">
+                                                <li><img src="images/planetocean-2-s.png" alt="" class="page8-watch-simg1"></li>
+                                                <li><img src="images/planetocean-2back-s.png" alt="" class="page8-watch-simg2"></li>
+                                                <li><img src="images/planetocean-card-s.png" alt="" class="page8-watch-simg3"></li>
+                                            </ul>
+                                        </li>
+                                        <li id="page8-watchimg-listbox-page3">
+                                            <ul class="page8-watchimg-listbt">
+                                                <li><img src="images/planetocean-3-s.png" alt="" class="page8-watch-simg1"></li>
+                                                <li><img src="images/planetocean-3back-s.png" alt="" class="page8-watch-simg2"></li>
+                                                <li><img src="images/planetocean-3etc-s.png" alt="" class="page8-watch-simg3"></li>
+                                            </ul>
+                                        </li>
+                                        <li id="page8-watchimg-listbox-page4">
+                                            <ul class="page8-watchimg-listbt">
+                                                <li><img src="images/planetocean-4-s.png" alt="" class="page8-watch-simg1"></li>
+                                                <li><img src="images/planetocean-4back-s.png" alt="" class="page8-watch-simg2"></li>
+                                                <li><img src="images/planetocean-card-s.png" alt="" class="page8-watch-simg3"></li>
+                                            </ul>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="page8-rightbox">
+                            <div class="page8-img-wrap">
+                                <ul class="page8-img-box-page">
+                                    <li id="page8-img-box-page1">
+                                        <ul class="page8-img-box">
+                                            <li><img src="images/planetimg1-1.jpg" alt="" class="page8-box-img1"></li>
+                                            <li><img src="images/planetimg1-2.jpg" alt="" class="page8-box-img2"></li>
+                                            <li><img src="images/planetimg1-3.jpg" alt="" class="page8-box-img3"></li>
+                                            <li><img src="images/planetimg1-4.jpg" alt="" class="page8-box-img4"></li>
+                                            <li><img src="images/planetimg1-1.jpg" alt="" class="page8-box-img1"></li>
+                                        </ul>
+                                    </li>
+                                    <li id="page8-img-box-page2">
+                                        <ul class="page8-img-box">
+                                            <li><img src="images/planetimg2-1.jpg" alt="" class="page8-box-img1"></li>
+                                            <li><img src="images/planetimg2-2.jpg" alt="" class="page8-box-img2"></li>
+                                            <li><img src="images/planetimg2-3.jpg" alt="" class="page8-box-img3"></li>
+                                            <li><img src="images/planetimg2-4.jpg" alt="" class="page8-box-img4"></li>
+                                            <li><img src="images/planetimg2-1.jpg" alt="" class="page8-box-img1"></li>
+                                        </ul>
+                                    </li>
+                                    <li id="page8-img-box-page3">
+                                        <ul class="page8-img-box">
+                                            <li><img src="images/planetimg3-1.jpg" alt="" class="page8-box-img1"></li>
+                                            <li><img src="images/planetimg3-2.jpg" alt="" class="page8-box-img2"></li>
+                                            <li><img src="images/planetimg3-3.jpg" alt="" class="page8-box-img3"></li>
+                                            <li><img src="images/planetimg3-4.jpg" alt="" class="page8-box-img4"></li>
+                                            <li><img src="images/planetimg3-1.jpg" alt="" class="page8-box-img1"></li>
+                                        </ul>
+                                    </li>
+                                    <li id="page8-img-box-page4">
+                                        <ul class="page8-img-box">
+                                            <li><img src="images/planetimg4-1.jpg" alt="" class="page8-box-img1"></li>
+                                            <li><img src="images/planetimg4-2.jpg" alt="" class="page8-box-img2"></li>
+                                            <li><img src="images/planetimg4-3.jpg" alt="" class="page8-box-img3"></li>
+                                            <li><img src="images/planetimg4-4.jpg" alt="" class="page8-box-img4"></li>
+                                            <li><img src="images/planetimg4-1.jpg" alt="" class="page8-box-img1"></li>
+                                        </ul>
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="page8-img-bt page8-img-prevbt"><img src="icons/basic-arrow.png" alt=""></div>
+                            <div class="page8-img-bt page8-img-nextbt"><img src="icons/basic-arrow.png" alt=""></div>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </section>
+        <!-- page8 end -->
+        <!-- page9 -->
+        <section class="page page9">
+            <div class="customizing-wrap">
+                <div class="customizing-topbox">
+                    <h2 class="customizing-title">Customize</h2>
+                    <div class="customizing-menubox">
+                        <ul class="customizing-menu">
+                            <li id="customizing-menu1">
+                                <img src="icons/speedmaster-red.png" alt="" class="customizing-menu-text">
+                                <div class="customizing-menu-bar"></div>
+                            </li>
+                            <li id="customizing-menu2">
+                                <img src="icons/seamaster-gray.png" alt="" class="customizing-menu-text">
+                                <div class="customizing-menu-bar"></div>
+                            </li>
+                            <li id="customizing-menu3">
+                                <img src="icons/constellation-gray.png" alt="" class="customizing-menu-text">
+                                <div class="customizing-menu-bar"></div>
+                            </li>
+                            <li id="customizing-menu4">
+                                <img src="icons/deville-gray.png" alt="" class="customizing-menu-text">
+                                <div class="customizing-menu-bar"></div>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="customizing-view-wrap">
+                    <div class="customizing-view-leftbox">
+                        <ul class="customizing-series-textbox">
+                            <li>
+                                <ul class="customizing-series-text customizing-series-text1">
+                                    <li id="speedmaster-submenu1">MOONWATCH</li>
+                                    <li id="speedmaster-submenu2">HERITAGE</li>
+                                    <li id="speedmaster-submenu3">DARK SIDE OF THE MOON</li>
+                                </ul>
+                            </li>
+                            <li>
+                                <ul class="customizing-series-text customizing-series-text2">
+                                    <li id="seamaster-submenu1">DIVER 300M</li>
+                                    <li id="seamaster-submenu2">PLANET OCEAN</li>
+                                    <li id="seamaster-submenu3">AQUA TERRA 150M</li>
+                                </ul>
+                            </li>
+                            <li>
+                                <ul class="customizing-series-text customizing-series-text3">
+                                    <li id="constellation-submenu1">GLOBEMASTER</li>
+                                    <li id="constellation-submenu2">CONSTELLATION</li>
+                                </ul>
+                            </li>
+                            <li>
+                                <ul class="customizing-series-text customizing-series-text4">
+                                    <li id="deville-submenu2">TRÉSOR</li>
+                                    <li id="deville-submenu3">PRESTIGE</li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="customizing-view-box">
+                        <div class="customizing-view-fixedwrap">
+                            <ul class="customizing-strap-view-fixed-box">
+                                <li><img src="customize/fixed-strap1.png" alt=""></li>
+                                <li><img src="customize/fixed-strap2.png" alt=""></li>
+                                <li><img src="customize/fixed-strap3.png" alt=""></li>
+                                <li><img src="customize/fixed-strap4.png" alt=""></li>
+                                <li><img src="customize/fixed-strap5.png" alt=""></li>
+                                <li><img src="customize/fixed-strap6.png" alt=""></li>
+                                <li><img src="customize/fixed-strap7.png" alt=""></li>
+                                <li><img src="customize/fixed-strap8.png" alt=""></li>
+                                <li><img src="customize/fixed-strap9.png" alt=""></li>
+                                <li><img src="customize/fixed-strap10.png" alt=""></li>
+                                <li><img src="customize/fixed-strap11.png" alt=""></li>
+                            </ul>
+                            <ul class="customizing-view-fixedbox">
+                                <li class="speedmaster-view-fixed">
+                                    <ul class="speedmaster-serise-page">
+                                        <li class="speedmaster-serise-page1">
+                                            <ul class="moonwatch-serise-fixed-box">
+                                                <li>
+                                                    <ul class="parts moonwatch-dial-fixed-list">
+                                                        <li><img src="customize/fixed-moonwatch-dial1.png" alt=""></li>
+                                                        <li><img src="customize/fixed-moonwatch-dial2.png" alt=""></li>
+                                                        <li><img src="customize/fixed-moonwatch-dial3.png" alt=""></li>
+                                                        <li><img src="customize/fixed-moonwatch-dial4.png" alt=""></li>
+                                                        <li><img src="customize/fixed-moonwatch-dial5.png" alt=""></li>
+                                                    </ul>
+                                                </li>
+                                                <li>
+                                                    <ul class="parts moonwatch-bezel-fixed-list">
+                                                        <li><img src="customize/fixed-moonwatch-bezel1.png" alt=""></li>
+                                                        <li><img src="customize/fixed-moonwatch-bezel2.png" alt=""></li>
+                                                        <li><img src="customize/fixed-moonwatch-bezel3.png" alt=""></li>
+                                                        <li><img src="customize/fixed-moonwatch-bezel4.png" alt=""></li>
+                                                    </ul>
+                                                </li>
+                                            </ul>
+                                        </li>
+                                        <li class="speedmaster-serise-page2">
+                                            <ul class="heritage-serise-fixed-box">
+                                                <li>
+                                                    <ul class="parts heritage-dial-fixed-list">
+                                                        <li><img src="customize/fixed-heritage-dial1.png" alt=""></li>
+                                                        <li><img src="customize/fixed-heritage-dial2.png" alt=""></li>
+                                                        <li><img src="customize/fixed-heritage-dial3.png" alt=""></li>
+                                                        <li><img src="customize/fixed-heritage-dial4.png" alt=""></li>
+                                                        <li><img src="customize/fixed-heritage-dial5.png" alt=""></li>
+                                                    </ul>
+                                                </li>
+                                                <li>
+                                                    <ul class="parts heritage-bezel-fixed-list">
+                                                        <li><img src="customize/fixed-heritage-bezel1.png" alt=""></li>
+                                                        <li><img src="customize/fixed-heritage-bezel2.png" alt=""></li>
+                                                        <li><img src="customize/fixed-heritage-bezel3.png" alt=""></li>
+                                                        <li><img src="customize/fixed-heritage-bezel4.png" alt=""></li>
+                                                        <li><img src="customize/fixed-heritage-bezel5.png" alt=""></li>
+                                                    </ul>
+                                                </li>
+                                            </ul>
+                                        </li>
+                                        <li class="speedmaster-serise-page3">
+                                            <ul class="dark-serise-fixed-box">
+                                                <li>
+                                                    <ul class="parts dark-dial-fixed-list">
+                                                        <li><img src="customize/fixed-dark-dial1.png" alt=""></li>
+                                                        <li><img src="customize/fixed-dark-dial2.png" alt=""></li>
+                                                        <li><img src="customize/fixed-dark-dial3.png" alt=""></li>
+                                                        <li><img src="customize/fixed-dark-dial4.png" alt=""></li>
+                                                    </ul>
+                                                </li>
+                                                <li>
+                                                    <ul class="parts dark-bezel-fixed-list">
+                                                        <li><img src="customize/fixed-dark-bezel1.png" alt=""></li>
+                                                        <li><img src="customize/fixed-dark-bezel2.png" alt=""></li>
+                                                        <li><img src="customize/fixed-dark-bezel3.png" alt=""></li>
+                                                        <li><img src="customize/fixed-dark-bezel4.png" alt=""></li>
+                                                    </ul>
+                                                </li>
+                                            </ul>
+                                        </li>
+                                    </ul>
+                                </li>
+                                <li class="seamaster-view-fixed">
+                                    <ul class="seamaster-serise-page">
+                                        <li class="seamaster-serise-page1">
+                                            <ul class="diver-serise-fixed-box">
+                                                <li>
+                                                    <ul class="parts diver-dial-fixed-list">
+                                                        <li><img src="customize/fixed-diver-dial1.png" alt=""></li>
+                                                        <li><img src="customize/fixed-diver-dial2.png" alt=""></li>
+                                                        <li><img src="customize/fixed-diver-dial3.png" alt=""></li>
+                                                        <li><img src="customize/fixed-diver-dial4.png" alt=""></li>
+                                                        <li><img src="customize/fixed-diver-dial5.png" alt=""></li>
+                                                    </ul>
+                                                </li>
+                                                <li>
+                                                    <ul class="parts diver-bezel-fixed-list">
+                                                        <li><img src="customize/fixed-diver-bezel1.png" alt=""></li>
+                                                        <li><img src="customize/fixed-diver-bezel2.png" alt=""></li>
+                                                        <li><img src="customize/fixed-diver-bezel3.png" alt=""></li>
+                                                        <li><img src="customize/fixed-diver-bezel4.png" alt=""></li>
+                                                    </ul>
+                                                </li>
+                                            </ul>
+                                        </li>
+                                        <li class="seamaster-serise-page2">
+                                            <ul class="planet-serise-fixed-box">
+                                                <li>
+                                                    <ul class="parts planet-dial-fixed-list">
+                                                        <li><img src="customize/fixed-planet-dial1.png" alt=""></li>
+                                                        <li><img src="customize/fixed-planet-dial2.png" alt=""></li>
+                                                        <li><img src="customize/fixed-planet-dial3.png" alt=""></li>
+                                                        <li><img src="customize/fixed-planet-dial4.png" alt=""></li>
+                                                        <li><img src="customize/fixed-planet-dial5.png" alt=""></li>
+                                                    </ul>
+                                                </li>
+                                                <li>
+                                                    <ul class="parts planet-bezel-fixed-list">
+                                                        <li><img src="customize/fixed-planet-bezel1.png" alt=""></li>
+                                                        <li><img src="customize/fixed-planet-bezel2.png" alt=""></li>
+                                                        <li><img src="customize/fixed-planet-bezel3.png" alt=""></li>
+                                                        <li><img src="customize/fixed-planet-bezel4.png" alt=""></li>
+                                                        <li><img src="customize/fixed-planet-bezel5.png" alt=""></li>
+                                                    </ul>
+                                                </li>
+                                            </ul>
+                                        </li>
+                                        <li class="seamaster-serise-page3">
+                                            <ul class="aqua-serise-fixed-box">
+                                                <li>
+                                                    <ul class="parts aqua-dial-fixed-list">
+                                                        <li><img src="customize/fixed-aqua-dial1.png" alt=""></li>
+                                                        <li><img src="customize/fixed-aqua-dial2.png" alt=""></li>
+                                                        <li><img src="customize/fixed-aqua-dial3.png" alt=""></li>
+                                                        <li><img src="customize/fixed-aqua-dial4.png" alt=""></li>
+                                                    </ul>
+                                                </li>
+                                                <li>
+                                                    <ul class="parts aqua-bezel-fixed-list">
+                                                        <li><img src="customize/fixed-aqua-bezel1.png" alt=""></li>
+                                                        <li><img src="customize/fixed-aqua-bezel2.png" alt=""></li>
+                                                        <li><img src="customize/fixed-aqua-bezel3.png" alt=""></li>
+                                                        <li><img src="customize/fixed-aqua-bezel4.png" alt=""></li>
+                                                    </ul>
+                                                </li>
+                                            </ul>
+                                        </li>
+                                    </ul>
+                                </li>
+                                <li class="constellation-view-fixed">
+                                    <ul class="constellation-serise-page">
+                                        <li class="constellation-serise-page1">
+                                            <ul class="globe-serise-fixed-box">
+                                                <li>
+                                                    <ul class="parts globe-dial-fixed-list">
+                                                        <li><img src="customize/fixed-globe-dial1.png" alt=""></li>
+                                                        <li><img src="customize/fixed-globe-dial2.png" alt=""></li>
+                                                        <li><img src="customize/fixed-globe-dial3.png" alt=""></li>
+                                                        <li><img src="customize/fixed-globe-dial4.png" alt=""></li>
+                                                        <li><img src="customize/fixed-globe-dial5.png" alt=""></li>
+                                                    </ul>
+                                                </li>
+                                                <li>
+                                                    <ul class="parts globe-bezel-fixed-list">
+                                                        <li><img src="customize/fixed-globe-bezel1.png" alt=""></li>
+                                                        <li><img src="customize/fixed-globe-bezel2.png" alt=""></li>
+                                                        <li><img src="customize/fixed-globe-bezel3.png" alt=""></li>
+                                                    </ul>
+                                                </li>
+                                            </ul>
+                                        </li>
+                                        <li class="constellation-serise-page2">
+                                            <ul class="cons-serise-fixed-box">
+                                                <li>
+                                                    <ul class="parts cons-dial-fixed-list">
+                                                        <li><img src="customize/fixed-cons-dial1.png" alt=""></li>
+                                                        <li><img src="customize/fixed-cons-dial2.png" alt=""></li>
+                                                        <li><img src="customize/fixed-cons-dial3.png" alt=""></li>
+                                                        <li><img src="customize/fixed-cons-dial4.png" alt=""></li>
+                                                        <li><img src="customize/fixed-cons-dial5.png" alt=""></li>
+                                                    </ul>
+                                                </li>
+                                                <li>
+                                                    <ul class="parts cons-bezel-fixed-list">
+                                                        <li><img src="customize/fixed-cons-bezel1.png" alt=""></li>
+                                                        <li><img src="customize/fixed-cons-bezel2.png" alt=""></li>
+                                                        <li><img src="customize/fixed-cons-bezel3.png" alt=""></li>
+                                                        <li><img src="customize/fixed-cons-bezel4.png" alt=""></li>
+                                                        <li><img src="customize/fixed-cons-bezel5.png" alt=""></li>
+                                                    </ul>
+                                                </li>
+                                            </ul>
+                                        </li>
+                                    </ul>
+                                </li>
+                                <li class="deville-view-fixed">
+                                    <ul class="deville-serise-page">
+                                        <li class="deville-serise-page1">
+                                            <ul class="tresor-serise-fixed-box">
+                                                <li>
+                                                    <ul class="parts tresor-dial-fixed-list">
+                                                        <li><img src="customize/fixed-tresor-dial1.png" alt=""></li>
+                                                        <li><img src="customize/fixed-tresor-dial2.png" alt=""></li>
+                                                        <li><img src="customize/fixed-tresor-dial3.png" alt=""></li>
+                                                    </ul>
+                                                </li>
+                                                <li>
+                                                    <ul class="parts tresor-bezel-fixed-list">
+                                                        <li><img src="customize/fixed-tresor-bezel1.png" alt=""></li>
+                                                        <li><img src="customize/fixed-tresor-bezel2.png" alt=""></li>
+                                                    </ul>
+                                                </li>
+                                            </ul>
+                                        </li>
+                                        <li class="deville-serise-page2">
+                                            <ul class="prestige-serise-fixed-box">
+                                                <li>
+                                                    <ul class="parts prestige-dial-fixed-list">
+                                                        <li><img src="customize/fixed-prestige-dial1.png" alt=""></li>
+                                                        <li><img src="customize/fixed-prestige-dial2.png" alt=""></li>
+                                                    </ul>
+                                                </li>
+                                                <li>
+                                                    <ul class="parts prestige-bezel-fixed-list">
+                                                        <li><img src="customize/fixed-prestige-bezel1.png" alt=""></li>
+                                                        <li><img src="customize/fixed-prestige-bezel2.png" alt=""></li>
+                                                    </ul>
+                                                </li>
+                                            </ul>
+                                        </li>
+                                    </ul>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="customizing-reset-bt">
+                            <img src="icons/reset-bt-b.png" alt="">
+                            <p>RESET</p>
+                        </div>
+                    </div>
+                    <div class="customizing-view-rightbox">
+                        <div class="customizing-submenu-wrap">
+                            <ul class="customizing-submenu">
+                                <li>Bezel</li>
+                                <li>Dial</li>
+                                <li>Strap</li>
+                            </ul>
+                        </div>
+                        <div class="customizing-submenu-listwrap">
+                            <ul class="customizing-submenu-list">
+                                <li id="bezel-list">
+                                    <ul class="bezel-list-container">
+                                        <!-- speedmaster bezel customizing -->
+                                        <li id="speedmaster-bezel-list">
+                                            <ul class="bezel-list-box speedmaster-bezel-list-box">
+                                                <li class="bezel-list-page">
+                                                    <ul class="customizing-submenu-listimg moonwatch-listimg">
+                                                        <li><img src="customize/moonwatch-bezel1.png" alt="" class="bezel-img1"></li>
+                                                        <li><img src="customize/moonwatch-bezel2.png" alt="" class="bezel-img2"></li>
+                                                        <li><img src="customize/moonwatch-bezel3.png" alt="" class="bezel-img3"></li>
+                                                        <li><img src="customize/moonwatch-bezel4.png" alt="" class="bezel-img4"></li>
+                                                    </ul>
+                                                </li>
+                                                <li class="bezel-list-page">
+                                                    <ul class="customizing-submenu-listimg heritage-listimg">
+                                                        <li><img src="customize/heritage-bezel1.png" alt="" class="bezel-img1"></li>
+                                                        <li><img src="customize/heritage-bezel2.png" alt="" class="bezel-img2"></li>
+                                                        <li><img src="customize/heritage-bezel3.png" alt="" class="bezel-img3"></li>
+                                                        <li><img src="customize/heritage-bezel4.png" alt="" class="bezel-img4"></li>
+                                                        <li><img src="customize/heritage-bezel5.png" alt="" class="bezel-img4"></li>
+                                                    </ul>
+                                                </li>
+                                                <li class="bezel-list-page">
+                                                    <ul class="customizing-submenu-listimg dark-listimg">
+                                                        <li><img src="customize/dark-bezel1.png" alt="" class="bezel-img1"></li>
+                                                        <li><img src="customize/dark-bezel2.png" alt="" class="bezel-img2"></li>
+                                                        <li><img src="customize/dark-bezel3.png" alt="" class="bezel-img3"></li>
+                                                        <li><img src="customize/dark-bezel4.png" alt="" class="bezel-img4"></li>
+                                                    </ul>
+                                                </li>
+                                            </ul>
+                                        </li>
+                                        <!-- speedmaster bezel customizing end -->
+                                        <!-- seamaster bezel customizing -->
+                                        <li id="seamaster-bezel-list">
+                                            <ul class="bezel-list-box seamaster-bezel-list-box">
+                                                <li class="bezel-list-page">
+                                                    <ul class="customizing-submenu-listimg diver-listimg">
+                                                        <li><img src="customize/diver-bezel1.png" alt="" class="bezel-img1"></li>
+                                                        <li><img src="customize/diver-bezel2.png" alt="" class="bezel-img2"></li>
+                                                        <li><img src="customize/diver-bezel3.png" alt="" class="bezel-img3"></li>
+                                                        <li><img src="customize/diver-bezel4.png" alt="" class="bezel-img4"></li>
+                                                    </ul>
+                                                </li>
+                                                <li class="bezel-list-page">
+                                                    <ul class="customizing-submenu-listimg planet-listimg">
+                                                        <li><img src="customize/planet-bezel1.png" alt="" class="bezel-img1"></li>
+                                                        <li><img src="customize/planet-bezel2.png" alt="" class="bezel-img2"></li>
+                                                        <li><img src="customize/planet-bezel3.png" alt="" class="bezel-img3"></li>
+                                                        <li><img src="customize/planet-bezel4.png" alt="" class="bezel-img4"></li>
+                                                        <li><img src="customize/planet-bezel5.png" alt="" class="bezel-img5"></li>
+                                                    </ul>
+                                                </li>
+                                                <li class="bezel-list-page">
+                                                    <ul class="customizing-submenu-listimg aqua-listimg">
+                                                        <li><img src="customize/aqua-bezel1.png" alt="" class="bezel-img1"></li>
+                                                        <li><img src="customize/aqua-bezel2.png" alt="" class="bezel-img2"></li>
+                                                        <li><img src="customize/aqua-bezel3.png" alt="" class="bezel-img3"></li>
+                                                        <li><img src="customize/aqua-bezel4.png" alt="" class="bezel-img4"></li>
+                                                    </ul>
+                                                </li>
+                                            </ul>
+                                        </li>
+                                        <!-- seamaster bezel customizing end -->
+                                        <!-- constellation bezel customizing -->
+                                        <li id="constellation-bezel-list">
+                                            <ul class="bezel-list-box constellation-bezel-list-box">
+                                                <li class="bezel-list-page">
+                                                    <ul class="customizing-submenu-listimg globe-listimg">
+                                                        <li><img src="customize/globe-bezel1.png" alt="" class="bezel-img1"></li>
+                                                        <li><img src="customize/globe-bezel2.png" alt="" class="bezel-img2"></li>
+                                                        <li><img src="customize/globe-bezel3.png" alt="" class="bezel-img3"></li>
+                                                    </ul>
+                                                </li>
+                                                <li class="bezel-list-page">
+                                                    <ul class="customizing-submenu-listimg cons-listimg">
+                                                        <li><img src="customize/cons-bezel1.png" alt="" class="bezel-img1"></li>
+                                                        <li><img src="customize/cons-bezel2.png" alt="" class="bezel-img2"></li>
+                                                        <li><img src="customize/cons-bezel3.png" alt="" class="bezel-img3"></li>
+                                                        <li><img src="customize/cons-bezel4.png" alt="" class="bezel-img4"></li>
+                                                        <li><img src="customize/cons-bezel5.png" alt="" class="bezel-img5"></li>
+                                                    </ul>
+                                                </li>
+                                            </ul>
+                                        </li>
+                                        <!-- constellation bezel customizing end -->
+                                        <!-- deville bezel customizing -->
+                                        <li id="deville-bezel-list">
+                                            <ul class="bezel-list-box deville-bezel-list-box">
+                                                <li class="bezel-list-page">
+                                                    <ul class="customizing-submenu-listimg tresor-listimg">
+                                                        <li><img src="customize/tresor-bezel1.png" alt="" class="bezel-img1"></li>
+                                                        <li><img src="customize/tresor-bezel2.png" alt="" class="bezel-img2"></li>
+                                                    </ul>
+                                                </li>
+                                                <li class="bezel-list-page">
+                                                    <ul class="customizing-submenu-listimg prestige-listimg">
+                                                        <li><img src="customize/prestige-bezel1.png" alt="" class="bezel-img1"></li>
+                                                        <li><img src="customize/prestige-bezel2.png" alt="" class="bezel-img2"></li>
+                                                    </ul>
+                                                </li>
+                                            </ul>
+                                        </li>
+                                        <!-- constellation bezel customizing end -->
+                                    </ul>
+                                </li>
+                                <li id="dial-list">
+                                    <ul class="dial-list-container">
+                                        <!-- speedmaster dial customizing -->
+                                        <li id="speedmaster-dial-list">
+                                            <ul class="dial-list-box speedmaster-dial-list-box">
+                                                <li class="dial-list-page">
+                                                    <ul class="customizing-submenu-listimg moonwatch-listimg">
+                                                        <li><img src="customize/moonwatch-dial1.png" alt="" id="dial-img1"></li>
+                                                        <li><img src="customize/moonwatch-dial2.png" alt="" id="dial-img2"></li>
+                                                        <li><img src="customize/moonwatch-dial3.png" alt="" id="dial-img3"></li>
+                                                        <li><img src="customize/moonwatch-dial4.png" alt="" id="dial-img4"></li>
+                                                        <li><img src="customize/moonwatch-dial5.png" alt="" id="dial-img5"></li>
+                                                    </ul>
+                                                </li>
+                                                <li class="dial-list-page">
+                                                    <ul class="customizing-submenu-listimg heritage-listimg">
+                                                        <li><img src="customize/heritage-dial1.png" alt="" id="dial-img1"></li>
+                                                        <li><img src="customize/heritage-dial2.png" alt="" id="dial-img2"></li>
+                                                        <li><img src="customize/heritage-dial3.png" alt="" id="dial-img3"></li>
+                                                        <li><img src="customize/heritage-dial4.png" alt="" id="dial-img4"></li>
+                                                        <li><img src="customize/heritage-dial5.png" alt="" id="dial-img5"></li>
+                                                    </ul>
+                                                </li>
+                                                <li class="dial-list-page">
+                                                    <ul class="customizing-submenu-listimg dark-listimg">
+                                                        <li><img src="customize/dark-dial1.png" alt="" id="dial-img1"></li>
+                                                        <li><img src="customize/dark-dial2.png" alt="" id="dial-img2"></li>
+                                                        <li><img src="customize/dark-dial3.png" alt="" id="dial-img3"></li>
+                                                        <li><img src="customize/dark-dial4.png" alt="" id="dial-img4"></li>
+                                                    </ul>
+                                                </li>
+                                            </ul>
+                                        </li>
+                                        <!-- speedmaster dial customizing end -->
+                                        <!-- seamaster dial customizing -->
+                                        <li id="seamaster-dial-list">
+                                            <ul class="dial-list-box seamaster-dial-list-box">
+                                                <li class="dial-list-page">
+                                                    <ul class="customizing-submenu-listimg diver-listimg">
+                                                        <li><img src="customize/diver-dial1.png" alt="" id="dial-img1"></li>
+                                                        <li><img src="customize/diver-dial2.png" alt="" id="dial-img2"></li>
+                                                        <li><img src="customize/diver-dial3.png" alt="" id="dial-img3"></li>
+                                                        <li><img src="customize/diver-dial4.png" alt="" id="dial-img4"></li>
+                                                        <li><img src="customize/diver-dial5.png" alt="" id="dial-img5"></li>
+                                                    </ul>
+                                                </li>
+                                                <li class="dial-list-page">
+                                                    <ul class="customizing-submenu-listimg planet-listimg">
+                                                        <li><img src="customize/planet-dial1.png" alt="" id="dial-img1"></li>
+                                                        <li><img src="customize/planet-dial2.png" alt="" id="dial-img2"></li>
+                                                        <li><img src="customize/planet-dial3.png" alt="" id="dial-img3"></li>
+                                                        <li><img src="customize/planet-dial4.png" alt="" id="dial-img4"></li>
+                                                        <li><img src="customize/planet-dial5.png" alt="" id="dial-img5"></li>
+                                                    </ul>
+                                                </li>
+                                                <li class="dial-list-page">
+                                                    <ul class="customizing-submenu-listimg aqua-listimg">
+                                                        <li><img src="customize/aqua-dial1.png" alt="" id="dial-img1"></li>
+                                                        <li><img src="customize/aqua-dial2.png" alt="" id="dial-img2"></li>
+                                                        <li><img src="customize/aqua-dial3.png" alt="" id="dial-img3"></li>
+                                                        <li><img src="customize/aqua-dial4.png" alt="" id="dial-img4"></li>
+                                                    </ul>
+                                                </li>
+                                            </ul>
+                                        </li>
+                                        <!-- seamaster dial customizing end -->
+                                        <!-- constellation dial customizing -->
+                                        <li id="constellation-dial-list">
+                                            <ul class="dial-list-box constellation-dial-list-box">
+                                                <li class="dial-list-page">
+                                                    <ul class="customizing-submenu-listimg globe-listimg">
+                                                        <li><img src="customize/globe-dial1.png" alt="" id="dial-img1"></li>
+                                                        <li><img src="customize/globe-dial2.png" alt="" id="dial-img2"></li>
+                                                        <li><img src="customize/globe-dial3.png" alt="" id="dial-img3"></li>
+                                                        <li><img src="customize/globe-dial4.png" alt="" id="dial-img4"></li>
+                                                        <li><img src="customize/globe-dial5.png" alt="" id="dial-img5"></li>
+                                                    </ul>
+                                                </li>
+                                                <li class="dial-list-page">
+                                                    <ul class="customizing-submenu-listimg cons-listimg">
+                                                        <li><img src="customize/cons-dial1.png" alt="" id="dial-img1"></li>
+                                                        <li><img src="customize/cons-dial2.png" alt="" id="dial-img2"></li>
+                                                        <li><img src="customize/cons-dial3.png" alt="" id="dial-img3"></li>
+                                                        <li><img src="customize/cons-dial4.png" alt="" id="dial-img4"></li>
+                                                        <li><img src="customize/cons-dial5.png" alt="" id="dial-img5"></li>
+                                                    </ul>
+                                                </li>
+                                            </ul>
+                                        </li>
+                                        <!-- constellation dial customizing end -->
+                                        <!-- deville dial customizing -->
+                                        <li id="deville-dial-list">
+                                            <ul class="dial-list-box deville-dial-list-box">
+                                                <li class="dial-list-page">
+                                                    <ul class="customizing-submenu-listimg tresor-listimg">
+                                                        <li><img src="customize/tresor-dial1.png" alt="" id="dial-img1"></li>
+                                                        <li><img src="customize/tresor-dial2.png" alt="" id="dial-img2"></li>
+                                                        <li><img src="customize/tresor-dial3.png" alt="" id="dial-img3"></li>
+                                                    </ul>
+                                                </li>
+                                                <li class="dial-list-page">
+                                                    <ul class="customizing-submenu-listimg prestige-listimg">
+                                                        <li><img src="customize/prestige-dial1.png" alt="" id="dial-img1"></li>
+                                                        <li><img src="customize/prestige-dial2.png" alt="" id="dial-img2"></li>
+                                                    </ul>
+                                                </li>
+                                            </ul>
+                                        </li>
+                                        <!-- deville dial customizing end -->
+                                    </ul>
+                                </li>
+                                <li id="strap-list">
+                                    <div class="strap-list-box">
+                                        <ul class="customizing-submenu-listimg">
+                                            <li><img src="customize/strap1.png" alt="" class="strap-img1"></li>
+                                            <li><img src="customize/strap2.png" alt="" class="strap-img2"></li>
+                                            <li><img src="customize/strap3.png" alt="" class="strap-img3"></li>
+                                            <li><img src="customize/strap4.png" alt="" class="strap-img4"></li>
+                                            <li><img src="customize/strap5.png" alt="" class="strap-img5"></li>
+                                            <li><img src="customize/strap6.png" alt="" class="strap-img6"></li>
+                                            <li><img src="customize/strap7.png" alt="" class="strap-img7"></li>
+                                            <li><img src="customize/strap8.png" alt="" class="strap-img8"></li>
+                                            <li><img src="customize/strap9.png" alt="" class="strap-img9"></li>
+                                            <li><img src="customize/strap10.png" alt="" class="strap-img10"></li>
+                                            <li><img src="customize/strap11.png" alt="" class="strap-img11"></li>
+                                        </ul>
+                                    </div>
+                                    <div class="strap-scroll-box">
+                                        <div class="strap-scroll-track"></div>
+                                        <div class="strap-dragbt">
+                                            <div class="strap-drag-arrow1"></div>
+                                            <div class="strap-drag-center"></div>
+                                            <div class="strap-drag-arrow2"></div>
+                                        </div>
+                                    </div>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- page9 end -->
+        <!-- page10 -->
+        <section class="page page10">
+            <div class="magazine-wrap">
+                <h2 class="magazine-title">Magazine</h2>
+                <div class="magazine-img1-box">
+                    <img src="images/magazine-img1.jpg" alt="" class="magazine-img1">
+                    <img src="images/magazine-img1-black.jpg" alt="" class="magazine-img1-black">
+                    <p class="magazine-name magazine-name1">SORA CHOI</p>
+                </div>
+                <p class="magazine-img1-text">"The unique colour of Moonshine™ gold gives each<br>
+                    timepiece its own special warmth."</p>
+                <div class="magazine-img1-popup-wrap">
+                    <div class="magazine-img1-popup">
+                        <h3 class="magazine-img1-popup-title">ADMIRE THE DETAILS</h3>
+                        <video src="video/magazine-popup1-video.mp4" controls class="magazine-popup1-video"></video>
+                        <ul class="magazine-img1-popup-imglist">
+                            <li><img src="images/magazine-popup-img1.jpg" alt=""></li>
+                            <li><img src="images/magazine-popup-img2.jpg" alt=""></li>
+                        </ul>
+                        <div class="magazine-popup-close"><img src="icons/close-b.png" alt=""></div>
+                    </div>
+                </div>
+
+                <div class="magazine-img2-box">
+                    <img src="images/magazine-img2.jpg" alt="" class="magazine-img2">
+                    <img src="images/magazine-img2-black.jpg" alt="" class="magazine-img2-black">
+                    <p class="magazine-name magazine-name2">HERIETH PAUL</p>
+                </div>
+                <p class="magazine-img2-text">THE GOLDEN HOUR<br>
+                    <span>Enjoying the day’s fading light in long-lasting Moonshine gold</span></p>
+
+                <div class="magazine-img3-box">
+                    <img src="images/magazine-img3.jpg" alt="" class="magazine-img3">
+                    <img src="images/magazine-img3-black.jpg" alt="" class="magazine-img3-black">
+                    <p class="magazine-name magazine-name3">BONNIE CHEN</p>
+                </div>
+                <p class="magazine-img3-text">Slender, classic and paved with diamonds,<br>
+                    the OMEGA Trésor has become one of the most sought-after<br>
+                    timepieces in our ladies collection. Now, as the sun goes down,<br> 
+                    the levels of luxury are raised with our newest models in 18K<br> 
+                    Moonshine™ gold.</p>
+            </div>
+        </section>
+        <!-- page10 end -->
+        <!-- page11 -->
+        <section class="page page11">
+            <div class="news-text-wrap">
+                <div class="news-title-box">
+                    <h2 class="news-title">News</h2>
+                    <div class="news-menu-box">
+                        <ul class="news-menu">
+                            <li>
+                                <p>WATCHES
+                                    <span class="news-menu-bar"></span>
+                                </p>
+                            </li>
+                            <li>
+                                <p>EVENTS
+                                    <span class="news-menu-bar"></span>
+                                </p>
+                            </li>
+                            <li>
+                                <p>PEOPLE
+                                    <span class="news-menu-bar"></span>
+                                </p>
+                            </li>
+                            <li>
+                                <p>SPORTS
+                                    <span class="news-menu-bar"></span>
+                                </p>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="news-slide-wrap">
+                <ul class="news-slide-box">
+                    <li id="news-slide-box1">
+                        <ul class="news-slide news-slide1">
+                            <li>
+                                <div class="news-slide-img-box"><img src="images/news1-img1.jpg" alt=""></div>
+                                <h4>THE NEW JAMES BOND WATCH</h4>
+                                <p>A night in New York with Daniel Craig, Michael G. Wilson and Barbara Broccoli.</p>
+                                <div class="news-more-bt"></div>
+                            </li>
+                            <li>
+                                <div class="news-slide-img-box"><img src="images/news1-img2.jpg" alt=""></div>
+                                <h4>EXCLUSIVE PREVIEW 2019</h4>
+                                <p>OMEGA unveils a full selection of this year’s newest watches.</p>
+                                <div class="news-more-bt"></div>
+                            </li>
+                            <li>
+                                <div class="news-slide-img-box"><img src="images/news1-img3.jpg" alt=""></div>
+                                <h4>IRRESISTIBLE RESISTIBLES</h4>
+                                <p>Omega has infused a whole new allure in the art of timepiece precision.</p>
+                                <div class="news-more-bt"></div>
+                            </li>
+                            <li>
+                                <div class="news-slide-img-box"><img src="images/news1-img4.jpg" alt=""></div>
+                                <h4>GOLD FOR APOLLO 11</h4>
+                                <p>The new Apollo 11 50th Anniversary Limited Edition pays tribute to history.</p>
+                                <div class="news-more-bt"></div>
+                            </li>
+                            <li>
+                                <div class="news-slide-img-box"><img src="images/news1-img5.jpg" alt=""></div>
+                                <h4>AS DEEP AS IT GETS</h4>
+                                <p>OMEGA’s specially engineered Planet Ocean performed perfectly.</p>
+                                <div class="news-more-bt"></div>
+                            </li>
+                            <li>
+                                <div class="news-slide-img-box"><img src="images/news1-img6.jpg" alt=""></div>
+                                <h4>THE BIOCERAMIC MOONSWATCH</h4>
+                                <p>OMEGA has collaborated with Swatch to produce a playful take on its iconic Speedmaster chronograph.</p>
+                                <div class="news-more-bt"></div>
+                            </li>
+                            <li>
+                                <div class="news-slide-img-box"><img src="images/news1-img7.jpg" alt=""></div>
+                                <h4>NOVELTIES 2021</h4>
+                                <p>Check out all of this year’s new OMEGA releases, with some very special watches on the way.</p>
+                                <div class="news-more-bt"></div>
+                            </li>
+                        </ul>
+                    </li>
+                    <li id="news-slide-box2">
+                        <ul class="news-slide news-slide2">
+                            <li>
+                                <div class="news-slide-img-box"><img src="images/news2-img1.jpg" alt=""></div>
+                                <h4>OMEGA GETS “LOST IN SPACE” IN LONDON</h4>
+                                <p>Celebrating 60 years of the Speedmaster with George Clooney and Buzz Aldrin.</p>
+                                <div class="news-more-bt"></div>
+                            </li>
+                            <li>
+                                <div class="news-slide-img-box"><img src="images/news2-img2.jpg" alt=""></div>
+                                <h4>EDDIE REDMAYNE IS WELCOMED TO OMEGA</h4>
+                                <p>welcomed into the OMEGA family as International, London.</p>
+                                <div class="news-more-bt"></div>
+                            </li>
+                            <li>
+                                <div class="news-slide-img-box"><img src="images/news2-img3.jpg" alt=""></div>
+                                <h4>CINDY CRAWFORD OPENS</h4>
+                                <p>black tie and golden sunset all blended seamlessly together at the opening of OMEGA.</p>
+                                <div class="news-more-bt"></div>
+                            </li>
+                            <li>
+                                <div class="news-slide-img-box"><img src="images/news2-img4.jpg" alt=""></div>
+                                <h4>SWIMMING LEGENDS AT OMEGA HOUSE IN RIO</h4>
+                                <p>event on Monday night at OMEGA House in Rio de Janeiro.</p>
+                                <div class="news-more-bt"></div>
+                            </li>
+                            <li>
+                                <div class="news-slide-img-box"><img src="images/news2-img5.jpg" alt=""></div>
+                                <h4>OMEGA CELEBRATES A FAMILY AFFAIR IN PARIS</h4>
+                                <p>Opening the “Her Time” exhibition with Cindy Crawford, Kaia, Presley and Rande Gerber.</p>
+                                <div class="news-more-bt"></div>
+                            </li>
+                            <li>
+                                <div class="news-slide-img-box"><img src="images/news2-img6.jpg" alt=""></div>
+                                <h4>THE “COMMANDER’S WATCH” IS LAUNCHED IN LONDON</h4>
+                                <p>OMEGA and EON Productions celebrate the new James Bond inspired timepiece.</p>
+                                <div class="news-more-bt"></div>
+                            </li>
+                            <li>
+                                <div class="news-slide-img-box"><img src="images/news2-img7.jpg" alt=""></div>
+                                <h4>BUZZ AT OMEGA HOUSE IN RIO</h4>
+                                <p>"Cocktails in Space" event, attended by the legendary astronaut and OMEGA ambassador Buzz Aldrin.</p>
+                                <div class="news-more-bt"></div>
+                            </li>
+                        </ul>
+                    </li>
+                    <li id="news-slide-box3">
+                        <ul class="news-slide news-slide3">
+                            <li>
+                                <div class="news-slide-img-box"><img src="images/news3-img1.jpg" alt=""></div>
+                                <h4>NICOLE KIDMAN WEARS OMEGA AT THE OSCARS</h4>
+                                <p>The 1955 timepiece beautifully combines 18K gold and diamonds.</p>
+                                <div class="news-more-bt"></div>
+                            </li>
+                            <li>
+                                <div class="news-slide-img-box"><img src="images/news3-img2.jpg" alt=""></div>
+                                <h4>HEADING TO THE MET WITH KAIA GERBER</h4>
+                                <p>Kaia Gerber wears OMEGA’s De Ville Prestige Dewdrop at fashion’s biggest night out.</p>
+                                <div class="news-more-bt"></div>
+                            </li>
+                            <li>
+                                <div class="news-slide-img-box"><img src="images/news3-img3.jpg" alt=""></div>
+                                <h4>GEORGE CLOONEY WEARS THE AQUA TERRA</h4>
+                                <p>George Clooney spotted wearing an OMEGA Seamaster Aqua Terra watch in Venice.</p>
+                                <div class="news-more-bt"></div>
+                            </li>
+                            <li>
+                                <div class="news-slide-img-box"><img src="images/news3-img4.jpg" alt=""></div>
+                                <h4>DANIEL CRAIG VISITS THE OMEGA FACTORY IN VILLERET</h4>
+                                <p>OMEGA Seamaster 300 “SPECTRE” Limited Edition, which will go on sale in September.</p>
+                                <div class="news-more-bt"></div>
+                            </li>
+                            <li>
+                                <div class="news-slide-img-box"><img src="images/news3-img5.jpg" alt=""></div>
+                                <h4>WELCOMING THE WORLD’S HIGHEST MAN</h4>
+                                <p>Pole vault star Mondo Duplantis visits OMEGA’s home of watchmaking in Switzerland.</p>
+                                <div class="news-more-bt"></div>
+                            </li>
+                            <li>
+                                <div class="news-slide-img-box"><img src="images/news3-img6.jpg" alt=""></div>
+                                <h4>OMEGA AT THE OSCARS</h4>
+                                <p>All the choices at the Academy Awards</p>
+                                <div class="news-more-bt"></div>
+                            </li>
+                            <li>
+                                <div class="news-slide-img-box"><img src="images/news3-img7.jpg" alt=""></div>
+                                <h4>DOUBLE NIGHT OF AWARDS</h4>
+                                <p>Celebrating the best of talent in LA and London</p>
+                                <div class="news-more-bt"></div>
+                            </li>
+                        </ul>
+                    </li>
+                    <li id="news-slide-box4">
+                        <ul class="news-slide news-slide4">
+                            <li>
+                                <div class="news-slide-img-box"><img src="images/news4-img1.jpg" alt=""></div>
+                                <h4>RORY MCILROY MAKES HISTORY</h4>
+                                <p>Our OMEGA ambassador records the 20th PGA Tour victory of his career.</p>
+                                <div class="news-more-bt"></div>
+                            </li>
+                            <li>
+                                <div class="news-slide-img-box"><img src="images/news4-img2.jpg" alt=""></div>
+                                <h4>THE UNBEATABLE CAELEB DRESSEL</h4>
+                                <p>Friend of OMEGA Caeleb Dressel wins five gold medals at the Tokyo 2020 Olympic Games.</p>
+                                <div class="news-more-bt"></div>
+                            </li>
+                            <li>
+                                <div class="news-slide-img-box"><img src="images/news4-img3.jpg" alt=""></div>
+                                <h4>20 YEARS OF THE OMEGA MASTERS</h4>
+                                <p>Celebrating two decades with Switzerland’s historic golf tournament.</p>
+                                <div class="news-more-bt"></div>
+                            </li>
+                            <li>
+                                <div class="news-slide-img-box"><img src="images/news4-img4.jpg" alt=""></div>
+                                <h4>COLLIN MORIKAWA WINS THE PGA CHAMPIONSHIP</h4>
+                                <p>OMEGA’s friend makes history in San Francisco.</p>
+                                <div class="news-more-bt"></div>
+                            </li>
+                            <li>
+                                <div class="news-slide-img-box"><img src="images/news4-img5.jpg" alt=""></div>
+                                <h4>WINNING DESIGNS</h4>
+                                <p>The ETNZ crew launch their cutting-edge boat wearing cool blue Planet Ocean chronographs.</p>
+                                <div class="news-more-bt"></div>
+                            </li>
+                            <li>
+                                <div class="news-slide-img-box"><img src="images/news4-img6.jpg" alt=""></div>
+                                <h4>THE OMEGA MASTERS</h4>
+                                <p>The 2019 winner played perfectly throughout 4 days to claim his Seamaster prize.</p>
+                                <div class="news-more-bt"></div>
+                            </li>
+                            <li>
+                                <div class="news-slide-img-box"><img src="images/news4-img7.jpg" alt=""></div>
+                                <h4>CHAD’S WINNING WEEK IN CHINA</h4>
+                                <p>OMEGA ambassador Chad le Clos completes an incredible 2018 in the pool.</p>
+                                <div class="news-more-bt"></div>
+                            </li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+            <div class="news-slide-dragbar">
+                <div class="news-slide-bar"></div>
+            </div>
+            <footer>
+                <div class="footer-box">
+                    <div class="footer-left-box">
+                        <div class="ft-img-box">
+                            <ul class="ft-img">
+                                <li><img src="images/slide1-watch.png" alt=""></li>
+                                <li><img src="images/slide2-watch.png" alt=""></li>
+                                <li><img src="images/slide3-watch.png" alt=""></li>
+                                <li><img src="images/slide4-watch.png" alt=""></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="footer-center-box">
+                        <span>Follow us</span>
+                        <ul class="ft-sns">
+                            <li><img src="icons/facebook-b.png" alt=""></li>
+                            <li><img src="icons/insta-b.png" alt=""></li>
+                            <li><img src="icons/twitter-b.png" alt=""></li>
+                            <li><img src="icons/pinterest-b.png" alt=""></li>
+                            <li><img src="icons/tiktok-b.png" alt=""></li>
+                            <li><img src="icons/linkedin-b.png" alt=""></li>
+                        </ul>
+                        <h3>Thanks for visiting my Website</h3>
+                        <p>Copyright 2022. Ho. All rights reserved.</p>
+                    </div>
+                    <div class="footer-right-box">
+                        <div class="contact-box">
+                            <h2>Contact us</h2>
+                            <p>LEE JUNG HO</p>
+                            <p>010.3377.7716</p>
+                            <p>lljungho@naver.com</p>
+                        </div>
+                    </div>
+                </div>
+            </footer>
+        </section>
+        <!-- page11 end -->
+    </div>
+    <!-- page end -->
+    <!-- top,bottom bt -->
+    <div class="top-bt-wrap">
+        <ul class="top-bt-text">
+            <li>Top</li>
+            <li>Low</li>
+        </ul>
+        <ul class="top-bt-text2">
+            <li>Top</li>
+            <li>Low</li>
+        </ul>
+        <div class="top-bt">
+            <div class="top-bt-line">
+                <div class="top-bt-arrow"></div>
+            </div>
+        </div>
+        <div class="bottom-bt">
+            <div class="bottom-bt-line">
+                <div class="bottom-bt-arrow"></div>
+            </div>
+        </div>
+    </div>
+    <!-- top,bottom bt end -->
+    <h1 id="sc">0</h1>
+</body>
+</html>
