@@ -78,7 +78,7 @@
     .hd-sub-textbox>li:hover { border-bottom: 1px solid #fff; }
     .hd-sub-textbox>li:hover .hd-sub-text { color: #fff; }
     .hd-information-box { position: absolute; top: 50%; left: 60px; opacity: 0; }
-    .hd-information-box>li { width: 216px; margin-bottom: 20px; position: relative; }
+    .hd-information-box>li { width: 260px; margin-bottom: 20px; position: relative; }
     .hd-information-box>li::after { content:''; display: inline-block; width: 2px; height: 2px; border: 2px solid #212121; position: absolute; top: 0; bottom: 0; margin: auto; left: -20px; transition: 0.3s; }
     .hd-information-box>li h3 { font-size: 16px; letter-spacing: 4.9px; line-height: 30px; position: relative; transition: 0.3s; color: #212121; }
     .hd-info-bar { width: 0%; height: 1px; background: linear-gradient(to right, #fff,transparent); position: absolute; bottom: -2px; left: 0; transition: 0.3s; }
@@ -169,7 +169,7 @@
     .page1-mainslide-logo { position: absolute; right: 0; left: 0; margin: auto; top: 100px; }
     .page1-mainslide-img1 { position: absolute; top: 0; bottom: 0; margin: auto; left: 140px; }
     .page1-mainslide-img2 { position: absolute; top: 0; bottom: 0; margin: auto; right: 140px; }
-    .page1-mainslide-morebt { width: 180px; height: 30px; line-height: 30px; font-size: 20px; font-weight: 900; color: #c40d2e; text-align: center; position: absolute; right: 0; left: 0; margin: auto; bottom: 170px; cursor: pointer; }
+    .page1-mainslide-morebt { width: 180px; height: 30px; line-height: 30px; font-size: 17px; font-weight: 900; color: #c40d2e; text-align: center; position: absolute; right: 0; left: 0; margin: auto; bottom: 170px; cursor: pointer; }
     .page1-mainslide-btbox { width: 180px; height: 30px; }
     .page1-mainslide-btbox2 { width: 0px; height: 30px; position: absolute; top: 0; left: 0; overflow: hidden; box-sizing: border-box; border-bottom: 1px solid #fff; animation: page1-mainslide-btani 2.5s infinite ease-in-out alternate ; }
     .page1-mainslide-bttext2 { width: 180px; height: 30px; color: #fff; position: absolute; top: 0; left: 0; }
